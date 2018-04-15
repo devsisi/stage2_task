@@ -1,0 +1,263 @@
+
+
+
+/* media query for laptop screens */
+@media (min-width: 992px){
+
+    body{
+        overflow: hidden;
+    }
+     
+     /* Styling for brand name */
+    .font-prop1{
+        
+        color:  #E85656;
+        font-size: 50px;
+        font-family:'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-style: italic;
+        margin-left: 25px;
+        line-height: 49px;
+    }
+
+    .font-prop2{
+        color: #F2F2F2;
+        font-size: 50px;
+        font-weight: lighter;
+        font-style: italic;
+        font-family:'Open Sans', sans-serif;
+        margin-left: -4px;
+        line-height: 49px;
+           
+    }
+    
+    .font-prop3{
+        color: #F2F2F2;
+        font-family:'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 50px;
+        margin-left: -4px;
+        line-height: 49px;
+        
+    }
+
+    .font-prop4{
+        color: #E85656;
+        font-size: 25px;
+        font-family:'Open Sans', sans-serif;
+        font-weight: lighter;
+        margin-left: -4px;
+        line-height: 49px;   
+    
+    }
+ /* styling for Take Action text */  
+    .big-font{
+        text-align: center;
+        margin-top: 10px;
+        line-height: 52PX;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 80px;
+        font-weight: 900;
+        left: 0;
+        right: 0;
+        color: #F2F2F2;
+    }
+
+    /* styling for the time reader */
+    #small-font{
+        text-align: center;
+        font-size: 80px;
+        color: #F2F2F2;
+        left: 0;
+        right: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        opacity: 0.85;
+        
+        
+    }
+
+    /* styling for the text underneath time */   
+    .p-font{
+        text-align: center;
+        color: #F2F2F2;
+        font-size: 55px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        opacity: 0.6;
+        font-style: italic;
+    }
+
+    
+}
+
+/*For small devices (Landscape phones) */
+@media (min-width: 576px){
+        body{
+            opacity: 0.7;
+           
+        }  
+      /* Styling for brand name */
+        .font-prop1{
+        
+            color:  #E85656;
+            font-size: 30px;
+            font-family:'Open Sans', sans-serif;
+            font-weight: normal;
+            font-style: italic;
+            margin-left: 25px;
+            line-height: 49px;
+        }
+    
+        .font-prop2{
+            color: #F2F2F2;
+            font-size: 30px;
+            font-weight: normal;
+            font-style: italic;
+            font-family:'Open Sans', sans-serif;
+            margin-left: -4px;
+            line-height: 49px;
+               
+        }
+        
+        .font-prop3{
+            color: #F2F2F2;
+            font-family:'Open Sans', sans-serif;
+            font-weight: normal;
+            font-style: italic;
+            font-size: 30px;
+            margin-left: -4px;
+            line-height: 49px;
+            
+        }
+    
+        .font-prop4{
+            color: #E85656;
+            font-size: 15px;
+            font-family:'Open Sans', sans-serif;
+            font-weight: normal;
+            margin-left: -4px;
+            line-height: 49px;   
+        
+        }
+     /* styling for Take Action text */   
+        .big-font{
+            text-align: center;
+           
+            line-height: 32PX;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 70px;
+            font-weight: bolder;
+            color: #F2F2F2;
+            left: 0;
+            right: 0;
+        }
+     
+        
+     /* styling for the time reader */   
+        #small-font{
+            text-align: center;
+            font-size: 70px;
+            color: #F2F2F2;
+            left: 0;
+            right: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+        }
+
+     /* styling for the text underneath time */   
+    .p-font{
+        text-align: center;
+        color: #F2F2F2;
+        font-size: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        opacity: 0.6;
+        font-style: italic;
+    }
+
+    
+}
+
+/* Small devices (Portrait)*/
+
+@media (max-width: 575px){
+    body{
+        opacity: 0.5;
+    }
+    
+    .font-prop1{
+        
+        color:  #E85656;
+        font-size: 35px;
+        font-family:'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-style: italic;
+        margin-left: 13px;
+        line-height: 49px;
+    }
+
+    .font-prop2{
+        color: #F2F2F2;
+        font-size: 35px;
+        font-weight: lighter;
+        font-style: italic;
+        font-family:'Open Sans', sans-serif;
+        margin-left: -4px;
+        line-height: 49px;
+           
+    }
+    
+    .font-prop3{
+        color: #F2F2F2;
+        font-family:'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 35px;
+        margin-left: -4px;
+        line-height: 49px;
+        
+    }
+
+    .font-prop4{
+        color: #E85656;
+        font-size: 17.5px;
+        font-family:'Open Sans', sans-serif;
+        font-weight: lighter;
+        margin-left: -4px;
+        line-height: 49px;   
+    
+    }
+
+    .big-font{
+        text-align: center;
+        padding-top: 50px;
+        line-height: 42PX;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        color: #F2F2F2;
+        right: 0;
+        left: 0;
+    }
+
+    #small-font{
+        text-align: center;
+        font-size: 80px;
+        color: #E85656;
+        left: 0;
+        right: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+    .p-font{
+        text-align: center;
+        color: #F2F2F2;
+        font-size: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        opacity: 0.6;
+        font-style: italic;
+    }
+}
